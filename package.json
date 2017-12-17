@@ -1,23 +1,23 @@
 {
-	"name": "language-ampl-syntax",
-	"version": "0.0.0",
-	"description": "Syntax highlighting for AMPL .mod .dat .run files in Atom",
-	"keywords": [
-		"language",
-		"ampl",
-		"mod",
-		"dat",
-		"run"
-	],
-	"engines": {
-		"atom": "*"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/m-paolino/atom-package-language-ampl-syntax.git"
-	},
-	"bugs": {
-		"url": "https://github.com/m-paolino/atom-package-language-ampl-syntax/issues"
-	},
-	"license": "MIT"
+  "name": "language-ampl-syntax",
+  "version": "1.0.0",
+  "description": "Syntax highlighting for AMPL .mod .dat .run files in Atom",
+  "keywords": [
+    "language",
+    "ampl",
+    "mod",
+    "dat",
+    "run"
+  ],
+  "engines": {
+    "atom": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-paolino/atom-package-language-ampl-syntax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m-paolino/atom-package-language-ampl-syntax/issues"
+  },
+  "license": "MIT"
 }
