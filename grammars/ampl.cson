@@ -90,7 +90,7 @@
 				'name': 'punctuation.definition.string.end.ampl'
 		'patterns': [
 			'match': '%(\\w+%|\\d+)'
-			'name': 'entity.'name'.class.ampl'
+			'name': 'entity.name.class.ampl'
 		]
 
 	'number':
