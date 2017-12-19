@@ -1,5 +1,5 @@
 'name': 'AMPL'
-'scopename': 'source.ampl'
+'scopeName': 'source.ampl'
 'fileTypes': [
 	'mod'
 	'dat'
