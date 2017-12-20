@@ -1,9 +1,7 @@
-'name': 'AMPL'
+'name': 'AMPL (data)'
 'scopeName': 'source.ampl'
 'fileTypes': [
-	'mod'
 	'dat'
-	'run'
 ]
 
 'patterns': [
