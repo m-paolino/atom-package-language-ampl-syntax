@@ -51,17 +51,13 @@
 		]
 
 	'linecomment':
-		'name': 'comment.line.sharp.ampl'
 		'match': '(#.*)(?!\\[\\[).*$\\n?'
-		'captures':
-			'1':
-				'name': 'punctuation.definition.comment.gms'
+		'name': 'comment.line.#.ampl'
 
 	'blockcomment':
-		'name': 'comment.slashstar.ampl'
 		'begin': '/\\*'
 		'end': '\\*/'
-		'contentname': 'comment.block.documentation.ampl'
+		'name': 'comment.block.documentation.ampl'
 
 	'singlequotestring':
 		'name': 'string.quoted.single.ampl'
@@ -75,7 +71,7 @@
 				'name': 'punctuation.definition.string.end.ampl'
 		'patterns': [
 			'match': '%(\\w+%|\\d+)'
-			'name': 'entity.name.class.ampl'
+			'name': 'entity.name.type.ampl'
 		]
 
 	'doublequotestring':
@@ -90,7 +86,7 @@
 				'name': 'punctuation.definition.string.end.ampl'
 		'patterns': [
 			'match': '%(\\w+%|\\d+)'
-			'name': 'entity.name.class.ampl'
+			'name': 'entity.name.type.ampl'
 		]
 
 	'number':
@@ -102,11 +98,11 @@
 		'match': '(?i)\\b((minimize|maximize|objective|coeff|coef|cover|obj|default|from|to|to_come|net_in|net_out|dimen|dimension|integer|binary|set|param|var|node|ordered|circular|reversed|symbolic|arc|check|close|display|drop|include|print|printf|quit|reset|restore|solve|update|write|shell|model|data|option|let|solution|fix|unfix|end|function|pipe|format|if|then|else|and|or|exists|forall|in|not|within|while|repeat|for|subject to|subj to|card|next|nextw|prev|prevw|first|last|member|ord|ord0)\\b)|s\\.t\\.'
 
 	'suffix':
-		'name': 'keyword.ampl'
-		'match': '\\b\\w*\\.(lb|ub|lb0|lb1|lb2|lrc|ub0|ub1|ub2|urc|val|lbs|ubs|init|body|dinit|dual|init0|ldual|slack|udual|lslack|uslack|dinit0)|(<<|>>)'
+		'name': 'support.function.ampl'
+		'match': '\\b\\w*\\.(lb|ub|lb0|lb1|lb2|lrc|ub0|ub1|ub2|urc|val|lbs|ubs|init|body|dinit|dual|init0|ldual|slack|udual|lslack|uslack|dinit0|current|down|up)|(<<|>>)'
 
 	'math':
-		'name': 'keyword.operator.ampl',
+		'name': 'keyword.operator.ampl'
 		'match': '(?i)[^\\.]\\b(union|diff|difference|symdiff|sum|inter|intersect|intersection|cross|setof|by|less|mod|div|product|abs|acos|acosh|alias|asin|asinh|atan|atan2|atanh|ceil|cos|exp|floor|log|log10|max|min|precision|round|sin|sinh|sqrt|tan|tanh|trunc|Beta|Cauchy|Exponential|Gamma|Irand224|Normal|Poisson|Uniform|Uniform01)\\b'
 
 	'operator':
@@ -121,7 +117,7 @@
 				'include': '#general'
 			}
 			{
-				'name': 'meta.function-call.arguments.ampl'
+				'name': 'support.function.ampl'
 				'match': '.'
 			}
 		]
@@ -134,7 +130,7 @@
 				'include': '#general'
 			}
 			{
-				'name': 'meta.function-call.arguments.ampl'
+				'name': 'support.function.ampl'
 				'match': '\\w'
 			}
 		]
