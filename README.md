@@ -2,6 +2,15 @@
 
 Syntax Highlighting Package for AMPL `.mod` `.dat` `.run` files in [Atom](https://atom.io).
 
+![apm](https://img.shields.io/apm/v/language-ampl-syntax.svg)
+![apm](https://img.shields.io/apm/dm/language-ampl-syntax.svg)
+
+## Installation
+
+Install `language-ampl-syntax` via either:
+-   your terminal: `apm install language-ampl-syntax`
+-   the Atom GUI: `Atom` > `Settings` > `Install` > Search for `language-ampl-syntax`
+
 ## Background: *AMPL language*
 
 AMPL (**A** **M**athematical **P**rogramming **L**anguage) is an algebraic modelling language for describing and solving high-complexity problems for large-scale mathematical computation (i.e. large-scale optimization and scheduling-type problems).
